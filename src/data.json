@@ -1,0 +1,43 @@
+[
+    {
+      "question": "What data structure uses LIFO?",
+      "answer": "Stack"
+    },
+    {
+      "question": "What data structure uses FIFO?",
+      "answer": "Queue"
+    },
+    {
+      "question": "Which structure is used to implement a priority queue?",
+      "answer": "Heap"
+    },
+    {
+      "question": "What type of tree has nodes with at most two children?",
+      "answer": "Binary"
+    },
+    {
+      "question": "What is a self-balancing binary search tree?",
+      "answer": "AVL"
+    },
+    {
+      "question": "What data structure stores key-value pairs?",
+      "answer": "Map"
+    },
+    {
+      "question": "Which structure is used for fast lookups?",
+      "answer": "Hash"
+    },
+    {
+      "question": "What is the space complexity of a linked list?",
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which data structure allows for fast insertions and deletions?",
+      "answer": "LinkedList"
+    },
+    {
+      "question": "What data structure is typically used for breadth-first search?",
+      "answer": "Queue"
+    }
+  ]
+  

@@ -1,0 +1,10 @@
+.wrap {
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px; /* Optional padding to create space around the text */
+  }
+  
+  h2, h3 {
+    margin: 0; /* Removes default margins if needed */
+    padding: 10px 0; /* Adds some space between the headings */
+  }
+  
