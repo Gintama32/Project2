@@ -48,6 +48,13 @@
   margin:15px;
   padding: 5px;
 }
-.next-button{
-  font-size: 15px;
+.button-div button{
+  margin:0 10px;
+}
+.correct {
+  border: 2px solid green;
+}
+
+.wrong {
+  border: 2px solid red;
 }

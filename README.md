@@ -1,25 +1,24 @@
-# Web Development Project 2 - Learn DataStructure
+# Web Development Project 3 - Learn DataStructure
 
 Submitted by: Furba Lama Sherpa
 This web app: checks your knowledge on data structures. It has flash card asking questions about data strucuture.
-
 Time spent: 3 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] _visual style implemented_
+- [ ] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -27,22 +26,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src="project2.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
+<img src='./project3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
 ## Notes
 
-I encountered problems with the rotation of cards with css. I learned that both front and back side of card needs to be rotated about the same axis 180 to display the information
-accurately.
+I knew that i needed to use stack for previous question functionality but did not know how to implement in react, later i learnt to implement as
+useState and then implemented it. Similarly, checking if the answer is right or wrong and then changing the input box color.
 
 ## License
 
-    Copyright 2024 Furba
+    Copyright 2024 Furba Lama Sherpa
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
